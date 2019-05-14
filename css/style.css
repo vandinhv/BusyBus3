@@ -1,0 +1,118 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+  background-color: #4F5863;
+}
+
+.top-grey {
+  height: 65px;
+}
+
+.round {
+    width: 295px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px #FFFFFF solid;
+    padding: 15px 5px 15px 25px;
+    font-size: 16px;
+}
+
+.search {
+  padding-left: 8px;
+}
+
+.cancel {
+  font-size: 17px;
+  background-color: #4F5863;
+  border: none;
+  color: white;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+tbody>tr>:nth-child(1){
+ color:#C68F5D;
+ width:20px;
+ text-align: center;
+ font-size: 1.4em;
+}
+
+table {
+  width: 375px;
+}
+
+td {
+  color: white;
+  padding: 12px 5px 12px 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.square {
+  height: 50px;
+  width: 55px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding-top: 14px;
+}
+
+.arrow {
+  color: white;
+  float: right;
+	font-size: 0.8em;
+  padding-right: 10px;
+}
+
+.directions {
+	font-size: 14px;
+	padding-top: 8px;
+	font-style: italic;
+}
+
+.numTime {
+	font-size: 22px;
+	padding-left: 22px;
+}
+
+.mins {
+	padding-left: 13px;
+	font-size: 12px;
+	padding-top: 5px;
+}
+
+.resumeSpacing {
+	font-style: italic;
+	padding-bottom: 7px;
+}
+
+.mins2 {
+	font-style: italic;
+}
+
+.notAvailable {
+	font-size: 20px;
+	padding-left: 17px;
+}
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search {
+	position: relative;
+ }
+
+.search input { text-indent: 10px;}
+
+.search .fa-search {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  font-size: 17px;
+  color: #4F5863;
+}

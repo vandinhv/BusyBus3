@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BusyBus</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/37471687aa.js"></script>
+  </head>
+  <body>
+    <section class="container">
+      <div class="top-grey">
+      <div class="status-bar">
+        <img src="images/statusbar.png">
+        </img>
+      </div>
+      <div class="search">
+			  <span class="fa fa-search"></span>
+			<div class="search2">
+				<input type="text" placeholder="Search bus stop location" class="round">
+				<button class="cancel">
+					Cancel
+				</button>
+			</div>
+		  </div>
+    </div>
+    <section class="map">
+      <img src="images/map.png">
+      </img>
+    </section>
+      <ul class="bus-list">
+        <div style="overflow-x:auto;">
+        <table>
+          <tr>
+            <td><div class="square">60</div></td>
+            <td>Randolph/Harbor Dr
+        			<div class="directions">
+        					Eastbound
+        			</div>
+            <td>
+      				<div class="numTime">
+      					20
+      				</div>
+<!--
+			<div class="arrow">
+				<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+			</div>
+-->
+      				<div class="mins">
+      					minutes
+      				</div>
+      			</td>
+        		<td>
+        			<div class="arrow">
+        				<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+        			</div>
+        		</td>
+          </tr>
+          <tr>
+            <td><div class="square">124</div></td>
+            <td>Navy Pier
+      				<div class="directions">
+      					Eastbound
+      				</div>
+			      </td>
+            <td>
+        			<div class="numTime">
+        			10
+        			</div>
+        			<div class="mins">
+        			minutes
+        			</div>
+			       </td>
+             <td>
+               <div class="arrow">
+                 <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+               </div>
+             </td>
+          </tr>
+          <tr>
+            <td><div class="square">151</div></td>
+            <td>Devon/Clark
+      				<div class="directions">
+      					Northbound
+      				</div>
+      			</td>
+            <td>
+        			<div class="numTime">
+        			16
+        			</div>
+        			<div class="mins">
+        			minutes
+        			</div>
+			      </td>
+            <td>
+              <div class="arrow">
+                <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="square">J14</div></td>
+            <td>103rd/Stony Island
+      				<div class="directions">
+      					Southbound
+      				</div>
+      			</td>
+            <td>
+        			<div class="numTime">
+        			15
+        			</div>
+        			<div class="mins">
+        			minutes
+        			</div>
+            </td>
+      			<td>
+      				<div class="arrow">
+      					<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+      				</div>
+      			</td>
+          </tr>
+          <tr>
+            <td><div class="square">124</div></td>
+            <td>Navy Pier
+      				<div class="directions">
+      					Southbound
+      				</div>
+      			</td>
+            <td>
+        			<div class="numTime">
+        			10
+        			</div>
+        			<div class="mins">
+        			minutes
+        			</div>
+            </td>
+      			<td>
+      				<div class="arrow">
+      					<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+      				</div>
+      			</td>
+          </tr>
+          <tr>
+            <td><div class="square">6x</div></td>
+            <td>Jackson Park Express
+      				<div class="directions">
+      					Reroute
+      				</div>
+      			</td>
+            <td>
+      			<div class="notAvailable">
+      			N/A
+      			</div>
+            </td>
+      			<td>
+      				<div class="arrow">
+      					<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+      				</div>
+      			</td>
+          </tr>
+          <tr>
+            <td><div class="square">4</div></td>
+            <td>Cottage Grove
+      				<div class="directions">
+      					Out of Service
+      				</div>
+      			</td>
+      			<td>
+      				<div class="resumeSpacing">
+      					Resumes
+      				</div>
+      				<div class="mins2">
+      					12:10am
+      				</div>
+			      </td>
+      			<td>
+      				<div class="arrow">
+      					<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+      				</div>
+      			</td>
+          </tr>
+          <tr>
+            <td><div class="square">20</div></td>
+            <td>Madison
+      				<div class="directions">
+      					Out of Service
+      				</div>
+			      </td>
+            <td>
+      				<div class="resumeSpacing">
+      					Resumes
+      				</div>
+      				<div class="mins2">
+      					12:10am
+      				</div>
+			      </td>
+      			<td>
+      				<div class="arrow">
+      					<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+      				</div>
+      			</td>
+          </tr>
+          <tr>
+            <td><div class="square">157</div></td>
+            <td>Streeterville/Taylor
+      				<div class="directions">
+      					Out of Service
+      				</div>
+      			</td>
+            <td>
+      				<div class="resumeSpacing">
+      					Resumes
+      				</div>
+      				<div class="mins2">
+      					6:00am
+      				</div>
+      			</td>
+      			<td>
+      				<div class="arrow">
+      					<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+      				</div>
+      			</td>
+          </tr>
+        </table>
+        </div>
+<!--
+        <li class="bus-line">
+          <div class="routebox">
+            <h3>60</h3>
+          </div>
+          <div class="destination">
+            <h3>Randolph/Harbor Dr.</h3>
+          </div>
+          <div class="frequency">
+
+          </div>
+        </li>
+-->
+      </section>
+    </section>
+  </body>
+</html>
